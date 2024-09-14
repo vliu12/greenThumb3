@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Care</title>
+    <!-- sage green -->
+
+    <style>
+        body {
+            margin: 0;
+            padding-bottom: 50px; /* to prevent content overlap with nav */
+        }
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+        }
+        .bottom-nav a {
+            color: white;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            flex-grow: 1;
+        }
+        .bottom-nav a:hover {
+            background-color: #555;
+        }
+    </style>
+
+
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #00ff00;
+            text-align: center;
+        }
+        input, button {
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #00ff00;
+            color: #121212;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Plant Care</h1>
+    <div>
+        <label for="waterInput">Water (ml):</label><br>
+        <input type="number" id="waterInput" placeholder="Enter water amount"><br>
+        <label for="sunlightInput">Sunlight (hours):</label><br>
+        <input type="number" id="sunlightInput" placeholder="Enter sunlight hours"><br>
+        <button id="submitBtn">Submit</button>
+    </div>
+    <div id="status"></div>
+
+    <script>
+        document.getElementById('submitBtn').addEventListener('click', function() {
+            const water = document.getElementById('waterInput').value;
+            const sunlight = document.getElementById('sunlightInput').value;
+            document.getElementById('status').innerText = `Plant watered with ${water}ml and given ${sunlight} hours of sunlight!`;
+        });
+    </script>
+</body>
+</html>
