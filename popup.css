@@ -20,11 +20,6 @@
     margin-bottom: 20px; /* Space between image and navigation */
   }
   
-  .plant-image {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px; /* Space between image and other content */
-  }
   
   #plantImage {
     width: 300px; /* Adjust size as needed */
