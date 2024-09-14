@@ -1,29 +1,31 @@
 <!DOCTYPE html>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jersey+20&display=swap" rel="stylesheet">
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green Thumb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="popup.css">
 </head>
-
 <body>
-    <div class="content">
-        <h1>Extension Content</h1>
-        <p>Your extension content goes here.</p>
+    <div class="container">
+        <div class="plant-image">
+            <img src="images/image2.png" alt="Plant" id="plantImage">
+        </div>
+        <div class="content">
+            <h1>Extension Content</h1>
+            <p>Your extension content goes here.</p>
+        </div>
+        <nav class="bottom-nav">
+            <ul>
+                <li><a href="#activityLog" data-page="pages/activity/activity.html">Activity</a></li>
+                <li><a href="#home" data-page="pages/home.html">Home</a></li>
+                <li><a href="#profile" data-page="pages/profile.html">Profile</a></li>
+            </ul>
+        </nav>
     </div>
-    <nav class="bottom-nav">
-        <ul>
-            <li><a href="#activityLog" data-page="pages/activity/activity.html">Activity</a></li>
-            <li><a href="#Home" data-page="pages/home.html">Home</a></li>
-            <li><a href="#Profile" data-page="pages/profile.html">Profile</a></li>
-        </ul>
-    </nav>
     <script src="popup.js"></script>
 </body>
-
 </html>
