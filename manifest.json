@@ -6,9 +6,9 @@
     "browser_action": {
       "default_popup": "popup.html",
       "default_icon": {
-        "16": "plant_image.png",
-        "48": "plant_image.png",
-        "128": "plant_image.png"
+        "16": "images/image3.jpg",
+        "48": "images/image1.jpg",
+        "128": "images/image1.jpg"
       }
     },
     "permissions": [

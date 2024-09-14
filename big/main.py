@@ -24,7 +24,7 @@ def get_water_needs(plant_data, plant_name):
 
 # Main program
 if __name__ == "__main__":
-    csv_file_path = "main/house_plants_water_needs.csv"  # Path to your CSV file
+    csv_file_path = "big/house_plants_water_needs.csv"  # Path to your CSV file
     plant_data = load_plant_data(csv_file_path)
 
     # Take user input for the plant name
