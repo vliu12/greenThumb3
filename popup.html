@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green Thumb</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="popup.css">
 </head>
 
 <body>
@@ -15,31 +15,12 @@
     </div>
     <nav class="bottom-nav">
         <ul>
-            <li><a href="#activityLog" data-page="activity.html">Activity</a></li>
-            <li><a href="#Home" data-page="home.html">Home</a></li>
-            <li><a href="#Profile" data-page="profile.html">Profile</a></li>
+            <li><a href="#activityLog" data-page="pages/activity.html">Activity</a></li>
+            <li><a href="#Home" data-page="pages/home.html">Home</a></li>
+            <li><a href="#Profile" data-page="pages/profile.html">Profile</a></li>
         </ul>
     </nav>
     <script src="popup.js"></script>
 </body>
-<!-- <body>
-    <h1>Plant Care</h1>
-    <div>
-        <label for="waterInput">Water (ml):</label><br>
-        <input type="number" id="waterInput" placeholder="Enter water amount"><br>
-        <label for="sunlightInput">Sunlight (hours):</label><br>
-        <input type="number" id="sunlightInput" placeholder="Enter sunlight hours"><br>
-        <button id="submitBtn">Submit</button>
-    </div>
-    <div id="status"></div>
-
-    <script>
-        document.getElementById('submitBtn').addEventListener('click', function() {
-            const water = document.getElementById('waterInput').value;
-            const sunlight = document.getElementById('sunlightInput').value;
-            document.getElementById('status').innerText = `Plant watered with ${water}ml and given ${sunlight} hours of sunlight!`;
-        });
-    </script>
-</body> -->
 
 </html>
