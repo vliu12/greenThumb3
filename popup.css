@@ -48,9 +48,9 @@ body {
 }
 
 .content {
-    flex: 1;
-    padding: 20px;
-}
+    text-align: center; /* Center-align text */
+    margin-bottom: 20px; /* Space between text and image */
+  }
 
 .bottom-nav {
     background-color: #055136; /* Background color of the nav bar */
