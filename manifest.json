@@ -6,9 +6,9 @@
     "browser_action": {
       "default_popup": "popup.html",
       "default_icon": {
-        "16": "images/image3.jpg",
-        "48": "images/image1.jpg",
-        "128": "images/image1.jpg"
+        "16": "images/image3.png",
+        "48": "images/image1.png",
+        "128": "images/image1.png"
       }
     },
     "permissions": [
