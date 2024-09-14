@@ -16,10 +16,17 @@
     </div>
 
 
-    <button id="waterButton">Water Your Plants</button>
-    <div id="message"></div>
+    <button id="myButton">Water</button>
 
-    <script src="js/activity.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var button = document.getElementById("myButton");
+            button.addEventListener("click", function() {
+                button.textContent = "you clicked me";
+            });
+        });
+        
+    </script>
 </body>
 
 </html>
