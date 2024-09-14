@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "greenThumb",
+    "version": "1.0",
+    "description": "Monitor your plant's watering needs!",
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "plant_image.png",
+        "48": "plant_image.png",
+        "128": "plant_image.png"
+      }
+    },
+    "permissions": [
+      "storage"
+    ]
+  }
