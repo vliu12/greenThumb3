@@ -1,7 +1,13 @@
+.jersey-20-regular {
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
 body {
     margin: 0;
     background-color: #c1d0b5;
-    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-family: 'Jersey 20', sans-serif;
     display: flex;
     flex-direction: column;
     height: 500px; /* Adjust height as needed */
