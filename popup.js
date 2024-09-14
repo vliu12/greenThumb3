@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Load default content (e.g., home.html) when the popup is opened
-    loadContent('pages/home/home.html');
+    loadContent('pages/home.html');
 });
 
 

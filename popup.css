@@ -27,7 +27,7 @@
   }
 
 
-body {
+#body {
     margin: 0;
     background-color: #c1d0b5;
     font-family: 'Jersey 20', sans-serif;
@@ -36,6 +36,11 @@ body {
     height: 500px; /* Adjust height as needed */
     width: 500px; /* Adjust width as needed */
 }
+
+#profilecontent {
+  font-size: medium;
+}
+
 
 .content {
     text-align: center; /* Center-align text */
