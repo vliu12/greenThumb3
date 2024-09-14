@@ -45,6 +45,7 @@ body {
 .content {
     text-align: center; /* Center-align text */
     margin-bottom: 20px; /* Space between text and image */
+    font-size: medium;
   }
 
 .bottom-nav {
