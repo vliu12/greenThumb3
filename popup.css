@@ -29,12 +29,13 @@
 
 #body {
     margin: 0;
-    background-color: #c1d0b5;
+    background-color: black;
     font-family: 'Jersey 20', sans-serif;
     display: flex;
     flex-direction: column;
     height: 500px; /* Adjust height as needed */
     width: 500px; /* Adjust width as needed */
+    color: rgb(47, 233, 47)
 }
 
 #profilecontent {
@@ -81,4 +82,26 @@
 
 .bottom-nav ul li a:hover {
     background-color: #575757; /* Background color on hover */
+}
+
+
+
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Jersey 20', sans-serif;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 18px;
 }
